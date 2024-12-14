@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background: url(wp2555019.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+    
+}
+
+
+input[type="number"] {
+    padding: 12px;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 1pc;
+}
+
+button {
+    
+    background-color: rgb(252, 238, 51);
+    padding: 10px 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.button3{
+    position: center;
+    bottom: px;
+    left: px;
+    padding: 5px 10px;
+    background-color: #2d60cf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.back-button22{
+    position: fixed;
+    bottom: 12px;
+    left: 15px;
+    padding: 12px 25px;
+    background-color: #f72222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .container22{
+    position: absolute;
+    top: -30px;
+    left: 1120px;
+    background: transparent;
+    text-align: center;
+    color: white;
+    height: 10px;
+  }
+  
+  .text22{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    color: transparent;
+    background-size: 400% 400%;
+    background-clip: text;
+    animation: gradient 5s ease infinite;
+    text-overflow: clip;
+  }
+  
+  @keyframes gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+  }
+
